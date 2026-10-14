@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Functional Mail | Simple Email, Coming Soon</title>
+  <meta name="description" content="Functional Mail is a simple email service built for people who want a clean, straightforward inbox. Join the waitlist for early access.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#e7eef4">
+  <link rel="canonical" href="https://functionalmail.com/">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Functional Mail | Simple Email, Coming Soon">
+  <meta property="og:description" content="Functional Mail is a simple email service built for people who want a clean, straightforward inbox. Join the waitlist for early access.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://functionalmail.com/">
+  <meta property="og:site_name" content="Functional Mail">
+  <meta property="og:image" content="https://functionalmail.com/images/hero-desk.jpg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="720">
+  <meta property="og:image:alt" content="A cream envelope and a black pen on a linen desk.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Functional Mail | Simple Email, Coming Soon">
+  <meta name="twitter:description" content="Functional Mail is a simple email service built for people who want a clean, straightforward inbox. Join the waitlist for early access.">
+  <meta name="twitter:image" content="https://functionalmail.com/images/hero-desk.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Functional Mail",
+    "url": "https://functionalmail.com/",
+    "email": "admin@functionalmail.com",
+    "description": "Functional Mail is a simple email service built for people who want a clean, straightforward inbox. Join the waitlist for early access."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div class="page">
+    <header class="letterhead">
+      <a class="brand" href="index.html">
+        <img src="images/logo.svg" width="64" height="64" alt="">
+        <span>Functional Mail</span>
+      </a>
+      <div class="letterhead-side">
+        <p class="domain">functionalmail.com</p>
+      </div>
+    </header>
+
+    <main id="content">
+      <section class="hero">
+        <p class="badge">Coming soon</p>
+        <h1>Email should just work.</h1>
+        <p class="lede">A simple, private-feeling inbox for people who miss when email was just email.</p>
+        <p class="quip">Big email got complicated. We miss simple.</p>
+        <p><a href="#waitlist">Join the waitlist</a></p>
+      </section>
+
+      <figure class="photo">
+        <img
+          src="images/hero-desk.jpg"
+          width="1280"
+          height="720"
+          alt="A cream envelope and a black pen on a linen desk."
+          fetchpriority="high">
+      </figure>
+
+      <section class="callout" aria-labelledby="meet-title">
+        <h2 id="meet-title">Meet Functional Mail</h2>
+        <p>A clean email experience without the noise. No social feed. No endless features. Just a simple place to send, receive, and keep your messages organized.</p>
+        <p class="quip">Think early internet email, just without the dial-up.</p>
+      </section>
+
+      <section aria-labelledby="features-title">
+        <h2 id="features-title" class="section-intro">Your inbox does not need 47 features.</h2>
+        <ul class="features">
+          <li class="feature">
+            <p class="feature-index" aria-hidden="true">01</p>
+            <h3>Your own inbox</h3>
+            <p>A clean email address that feels personal and professional.</p>
+          </li>
+          <li class="feature">
+            <p class="feature-index" aria-hidden="true">02</p>
+            <h3>Simple by design</h3>
+            <p>No clutter. No complicated setup. Just email.</p>
+          </li>
+          <li class="feature">
+            <p class="feature-index" aria-hidden="true">03</p>
+            <h3>Made for real people</h3>
+            <p>Built for work, applications, projects, and everyday communication.</p>
+          </li>
+        </ul>
+        <p class="closer">Email. That’s it. Revolutionary, apparently.</p>
+      </section>
+
+      <div class="waitlist-layout">
+        <section class="waitlist" id="waitlist" aria-labelledby="waitlist-title">
+          <h2 id="waitlist-title">Want first access?</h2>
+          <p class="lede">Functional Mail is still being built. Join the early-access list and we’ll let you know when accounts become available.</p>
+          <!-- Waitlist: paste your Google Form link at the top of script.js -->
+          <form id="waitlist-form" action="#" method="post" novalidate>
+            <div class="field">
+              <label for="first-name">First name</label>
+              <input id="first-name" name="first-name" type="text" autocomplete="given-name" maxlength="80" required aria-describedby="first-name-error">
+              <p id="first-name-error" class="field-error" hidden></p>
+            </div>
+            <div class="field">
+              <label for="email">Email address</label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" required spellcheck="false" aria-describedby="email-error">
+              <p id="email-error" class="field-error" hidden></p>
+            </div>
+            <button type="submit">Join the Waitlist</button>
+            <p id="form-status" class="form-status" role="status" aria-atomic="true"></p>
+          </form>
+          <noscript>
+            <p>If the form can’t send, email <a href="mailto:admin@functionalmail.com">admin@functionalmail.com</a> with your first name and we’ll add you.</p>
+          </noscript>
+          <p class="fine-print">No spam. That would be pretty embarrassing for an email company.</p>
+        </section>
+
+        <figure class="photo">
+          <img
+            src="images/inbox-still.jpg"
+            width="1152"
+            height="864"
+            alt="Three cream envelopes tied with a thin black string."
+            loading="lazy">
+        </figure>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Functional Mail</p>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="mailto:admin@functionalmail.com">Contact<span class="visually-hidden"> by email</span></a></li>
+        </ul>
+      </nav>
+      <p class="legal-note">Functional Mail is a mail service of Marcus Facilities LLC.</p>
+      <p>Functional Mail is currently in early access.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
